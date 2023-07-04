@@ -113,7 +113,5 @@ python ./tools/test.py  \
 
 ## Visualization
 |![image](https://github.com/HiImKing1509/Hybrid-Anchor-Rotation-Detector/blob/master/images/vis/P0014__1024__0___0.png)|![image](https://github.com/HiImKing1509/Hybrid-Anchor-Rotation-Detector/blob/master/images/vis/P0014__1024__0___0.png)|![image](https://github.com/HiImKing1509/Hybrid-Anchor-Rotation-Detector/blob/master/images/vis/P0014__1024__0___0.png)|![image](https://github.com/HiImKing1509/Hybrid-Anchor-Rotation-Detector/blob/master/images/vis/P0014__1024__0___0.png)|
-|-|-|-|-|
 |![image](https://github.com/HiImKing1509/Hybrid-Anchor-Rotation-Detector/blob/master/images/vis/P0014__1024__0___0.png)|![image](https://github.com/HiImKing1509/Hybrid-Anchor-Rotation-Detector/blob/master/images/vis/P0014__1024__0___0.png)|![image](https://github.com/HiImKing1509/Hybrid-Anchor-Rotation-Detector/blob/master/images/vis/P0014__1024__0___0.png)|![image](https://github.com/HiImKing1509/Hybrid-Anchor-Rotation-Detector/blob/master/images/vis/P0014__1024__0___0.png)|
-|-|-|-|-|
 |![image](https://github.com/HiImKing1509/Hybrid-Anchor-Rotation-Detector/blob/master/images/vis/P0014__1024__0___0.png)|![image](https://github.com/HiImKing1509/Hybrid-Anchor-Rotation-Detector/blob/master/images/vis/P0014__1024__0___0.png)|![image](https://github.com/HiImKing1509/Hybrid-Anchor-Rotation-Detector/blob/master/images/vis/P0014__1024__0___0.png)|![image](https://github.com/HiImKing1509/Hybrid-Anchor-Rotation-Detector/blob/master/images/vis/P0014__1024__0___0.png)|
