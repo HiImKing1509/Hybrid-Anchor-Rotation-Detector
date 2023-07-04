@@ -11,6 +11,29 @@ Oriented object detection in aerial images involves identifying objects with var
 
 ## Installation
 
+Data
+
+```
+HA-RDet
+├── mmrotate
+├── tools
+├── configs
+├── data
+│   ├── split_ss_dota
+│   │   ├── trainval
+│   │   │    ├── annfiles
+│   │   │    ├── images
+│   │   ├── test
+│   │   │    ├── annfiles
+│   │   │    ├── images
+│   ├── DIOR-R
+│   │   ├── trainval
+│   │   ├── test
+│   ├── HRSC
+│   │   ├── ImageSets
+│   │   ├── FullDataSets
+```
+
 ## Benchmark and Model Zoo
 
 ### DOTA-v1.0 dataset
