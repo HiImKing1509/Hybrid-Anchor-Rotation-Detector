@@ -17,6 +17,6 @@ Oriented object detection in aerial images involves identifying objects with var
 | ------ |:-------------:|:----------------------:|:-----------------------------------------------------:|:-------------------------:|:----:|:----:|:---:|:--:|
 | S2A-Net| ResNet50+FPN | 1 | 4.6 | ~39M | 15.5 | 74.19 | - | - |
 | Oriented R-CNN| ResNet50+FPN | 20 | 14.2 | ~41M | 13.5 | 75.69 | - | - |
-| **HA-RDet (our)** | ResNet50+FPN | 1 | 6.8 | ~56M | 12.1 | 75.41 | <a href="https://github.com/HiImKing1509/Hybrid-Anchor-Rotation-Detector/blob/master/configs/ha_rdet/hardet_baseline_r50_fpn_1x_dota_le90.py">config</a> | Model | log |
+| **HA-RDet (our)** | ResNet50+FPN | 1 | 6.8 | ~56M | 12.1 | 75.41 | <a href="https://github.com/HiImKing1509/Hybrid-Anchor-Rotation-Detector/blob/master/configs/ha_rdet/hardet_baseline_r50_fpn_1x_dota_le90.py">config</a> | model / log |
 | **HA-RDet (our)** | ResNet101+FPN | 1 | - | - | - | 76.02 | <a href="https://github.com/HiImKing1509/Hybrid-Anchor-Rotation-Detector/blob/master/configs/ha_rdet/hardet_baseline_r101_fpn_1x_dota_le90.py">config</a> | - |
 | **HA-RDet (our)** | ResNeXt101_DCNv2+FPN | 1 | - | - | - | 77.012 | <a href="https://github.com/HiImKing1509/Hybrid-Anchor-Rotation-Detector/blob/master/configs/ha_rdet/hardet_baseline_rx101_dcn_fpn_1x_dota_le90.py">config</a> | - |
