@@ -3,7 +3,7 @@
   # Hybrid-Anchor Rotation Detector for Oriented Object Detection
 </div>
 
-![image](https://github.com/HiImKing1509/Hybrid-Anchor-Rotation-Detector/assets/84212036/135e3707-f2bb-455b-bd83-857cdde06336)
+![image](https://github.com/HiImKing1509/Hybrid-Anchor-Rotation-Detector/assets/84212036/4fa9ded3-6d8a-4500-bf34-d2e8c90ced2f)
 
 ## Introduction
 
