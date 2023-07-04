@@ -13,7 +13,7 @@ Oriented object detection in aerial images involves identifying objects with var
 
 ## Benchmark and Model Zoo
 
-### DOTA dataset
+### DOTA-v1.0 dataset
 
 | Model    |    Backbone       | #anchors              | VRAM (GB) | #params                   | FPS | mAP | Config | Download |
 | ------ |:-------------:|:----------------------:|:-----------------------------------------------------:|:-------------------------:|:----:|:----:|:---:|:--:|
@@ -24,4 +24,14 @@ Oriented object detection in aerial images involves identifying objects with var
 | **HA-RDet (our)** | ResNeXt101_DCNv2+FPN | 1 | - | - | - | 77.012 | <a href="https://github.com/HiImKing1509/Hybrid-Anchor-Rotation-Detector/blob/master/configs/ha_rdet/hardet_baseline_rx101_dcn_fpn_1x_dota_le90.py">config</a> | <a href="https://drive.google.com/file/d/1_29jCteJpW-13MxClbZP7eHuRY9HJPTH/view?usp=drive_link">model</a> / <a href="https://github.com/HiImKing1509/Hybrid-Anchor-Rotation-Detector/blob/master/logs/hardet_baseline_rx101_dcn_fpn_1x_dota_le90.txt">log</a> |
 
 ### HRSC2016
+
+| Model | Backbone | #Anchor | mAP (VOC 07) | mAP (VOC 12) |
+|:-----:|:--------:|:-------:|:-------:|:-------:|
+| S2A-Net | ResNet101+FPN | 1 | 90.17 | 95.01 |
+| AOPG | ResNet101+FPN | 1 | 90.34 | 96.22 |
+| **HA-RDet** | ResNeXt101_DCNv2+FPN | 1 | 90.2 | 95.32 |
+
 ### DIOR-R
+| Model | Backbone | mAP |
+|:-----:|:--------:|:---:|
+| HA-RDet | ResNeXt101_DCNv2+FPN | 65.3 |
