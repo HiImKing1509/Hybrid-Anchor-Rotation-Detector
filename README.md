@@ -59,6 +59,33 @@ pip install -r requirements/build.txt
 pip install -v -e .
 ```
 
+## Training and Inference
+
+* Training command:
+
+```
+python tools/train.py ${CONFIG_FILE} [optional arguments]
+
+# Example:
+python tools/train.py configs/ha_rdet/hardet_baseline_r50_fpn_1x_dota_le90.py
+```
+
+* Inference command for online submission:
+```
+python ./tools/test.py  \
+    configs/ha_rdet/hardet_baseline_r50_fpn_1x_dota_le90.py \
+    checkpoints/SOME_CHECKPOINT.pth --format-only \
+    --eval-options submission_dir=[SAVE_FOLDER]
+```
+
+* Visualize the results
+```
+python ./tools/test.py  \
+    configs/ha_rdet/hardet_baseline_r50_fpn_1x_dota_le90.py \
+    checkpoints/SOME_CHECKPOINT.pth
+    --show-dir [SAVE_FOLDER]
+```
+
 ## Benchmark and Model Zoo
 
 ### DOTA-v1.0 dataset
