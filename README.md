@@ -44,7 +44,7 @@ MMRotate depends on <a href="https://pytorch.org/">PyTorch</a>, <a href="https:/
 # Git clone
 git clone https://github.com/HiImKing1509/Hybrid-Anchor-Rotation-Detector
 
-# Evironment setup
+# Environment setup
 conda create -n [NAME] python=3.7 pytorch==1.7.0 cudatoolkit=10.1 torchvision -c pytorch -y
 conda activate [NAME]
 pip install openmim
