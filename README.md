@@ -40,11 +40,13 @@ HA-RDet
 Our experiment relies on the <a href="https://github.com/open-mmlab/mmrotate">MMRotate</a> framework provided by <a href="https://github.com/open-mmlab">Open MMLab</a>.
 MMRotate depends on <a href="https://pytorch.org/">PyTorch</a>, <a href="https://github.com/open-mmlab/mmcv">MMCV</a> and <a href="https://github.com/open-mmlab/mmdetection">MMDetection</a>. Quick steps for installation follows as:
 
-```
-# Git clone
-git clone https://github.com/HiImKing1509/Hybrid-Anchor-Rotation-Detector
+* Git clone
 
-# Environment setup
+``` git clone https://github.com/HiImKing1509/Hybrid-Anchor-Rotation-Detector ```
+
+* Environment setup
+
+```
 conda create -n [NAME] python=3.7 pytorch==1.7.0 cudatoolkit=10.1 torchvision -c pytorch -y
 conda activate [NAME]
 pip install openmim
