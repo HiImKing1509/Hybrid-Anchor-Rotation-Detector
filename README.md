@@ -94,9 +94,9 @@ python ./tools/test.py  \
 | ------ |:-------------:|:----------------------:|:-----------------------------------------------------:|:-------------------------:|:----:|:----:|:---:|:--:|
 | S2A-Net| ResNet50+FPN | 1 | 4.6 | ~39M | 15.5 | 74.19 | - | - |
 | Oriented R-CNN| ResNet50+FPN | 20 | 14.2 | ~41M | 13.5 | 75.69 | - | - |
-| **HA-RDet (our)** | ResNet50+FPN | 1 | 6.8 | ~56M | 12.1 | 75.41 | <a href="https://github.com/HiImKing1509/Hybrid-Anchor-Rotation-Detector/blob/master/configs/ha_rdet/hardet_baseline_r50_fpn_1x_dota_le90.py">config</a> | <a href="https://drive.google.com/file/d/1_8xUpm8dX5oypkBCiDuqYolG2u3_KuYW/view?usp=drive_link">model</a> / <a href="https://github.com/HiImKing1509/Hybrid-Anchor-Rotation-Detector/blob/master/logs/hardet_baseline_r50_fpn_1x_dota_le90.txt">log</a> |
-| **HA-RDet (our)** | ResNet101+FPN | 1 | - | - | - | 76.02 | <a href="https://github.com/HiImKing1509/Hybrid-Anchor-Rotation-Detector/blob/master/configs/ha_rdet/hardet_baseline_r101_fpn_1x_dota_le90.py">config</a> | <a href="https://drive.google.com/file/d/1Zm7eYrepwAmjJ0TaHti4d6Znn9T4bl__/view?usp=drive_link">model</a> / <a href="https://github.com/HiImKing1509/Hybrid-Anchor-Rotation-Detector/blob/master/logs/hardet_baseline_r101_fpn_1x_dota_le90.txt">log</a> |
-| **HA-RDet (our)** | ResNeXt101_DCNv2+FPN | 1 | - | - | - | 77.012 | <a href="https://github.com/HiImKing1509/Hybrid-Anchor-Rotation-Detector/blob/master/configs/ha_rdet/hardet_baseline_rx101_dcn_fpn_1x_dota_le90.py">config</a> | <a href="https://drive.google.com/file/d/1_29jCteJpW-13MxClbZP7eHuRY9HJPTH/view?usp=drive_link">model</a> / <a href="https://github.com/HiImKing1509/Hybrid-Anchor-Rotation-Detector/blob/master/logs/hardet_baseline_rx101_dcn_fpn_1x_dota_le90.txt">log</a> |
+| **HA-RDet (ours)** | ResNet50+FPN | 1 | 6.8 | ~56M | 12.1 | 75.41 | <a href="https://github.com/HiImKing1509/Hybrid-Anchor-Rotation-Detector/blob/master/configs/ha_rdet/hardet_baseline_r50_fpn_1x_dota_le90.py">config</a> | <a href="https://drive.google.com/file/d/1_8xUpm8dX5oypkBCiDuqYolG2u3_KuYW/view?usp=drive_link">model</a> / <a href="https://github.com/HiImKing1509/Hybrid-Anchor-Rotation-Detector/blob/master/logs/hardet_baseline_r50_fpn_1x_dota_le90.txt">log</a> |
+| **HA-RDet (ours)** | ResNet101+FPN | 1 | - | - | - | 76.02 | <a href="https://github.com/HiImKing1509/Hybrid-Anchor-Rotation-Detector/blob/master/configs/ha_rdet/hardet_baseline_r101_fpn_1x_dota_le90.py">config</a> | <a href="https://drive.google.com/file/d/1Zm7eYrepwAmjJ0TaHti4d6Znn9T4bl__/view?usp=drive_link">model</a> / <a href="https://github.com/HiImKing1509/Hybrid-Anchor-Rotation-Detector/blob/master/logs/hardet_baseline_r101_fpn_1x_dota_le90.txt">log</a> |
+| **HA-RDet (ours)** | ResNeXt101_DCNv2+FPN | 1 | - | - | - | 77.012 | <a href="https://github.com/HiImKing1509/Hybrid-Anchor-Rotation-Detector/blob/master/configs/ha_rdet/hardet_baseline_rx101_dcn_fpn_1x_dota_le90.py">config</a> | <a href="https://drive.google.com/file/d/1_29jCteJpW-13MxClbZP7eHuRY9HJPTH/view?usp=drive_link">model</a> / <a href="https://github.com/HiImKing1509/Hybrid-Anchor-Rotation-Detector/blob/master/logs/hardet_baseline_rx101_dcn_fpn_1x_dota_le90.txt">log</a> |
 
 ### HRSC2016
 
@@ -104,7 +104,7 @@ python ./tools/test.py  \
 |:-----:|:--------:|:-------:|:-------:|:-------:|
 | S2A-Net | ResNet101+FPN | 1 | 90.17 | 95.01 |
 | AOPG | ResNet101+FPN | 1 | 90.34 | 96.22 |
-| **HA-RDet** | ResNeXt101_DCNv2+FPN | 1 | 90.2 | 95.32 |
+| **HA-RDet (ours)** | ResNeXt101_DCNv2+FPN | 1 | 90.2 | 95.32 |
 
 ### DIOR-R
 | Model | Backbone | mAP |
