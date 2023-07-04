@@ -11,8 +11,10 @@ Oriented object detection in aerial images involves identifying objects with var
 
 ## Installation
 
-Data
-
+Data preparation and download
+* DOTA-v1.0: <a href="https://captain-whu.github.io/DOTA/dataset.html">download</a>
+* HRSC2016: <a href="https://www.kaggle.com/datasets/guofeng/hrsc2016">download</a>
+* DIOR-R: <a href="https://drive.google.com/drive/folders/1UdlgHk49iu6WpcJ5467iT-UqNPpx__CC">download</a>
 ```
 HA-RDet
 ├── mmrotate
